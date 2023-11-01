@@ -6,7 +6,7 @@
                     <h1 class="text-5xl font-bold">The Sandbox</h1>
                     <p class="py-6">
                         🥇 Interactive Challenges for The
-                        Cyber Security Club @ Las Positas College
+                        CyberSecurity Club @ Las Positas College
                     </p>
                     <aside class="flex flex-col md:flex-row gap-2 justify-center">
                         <NuxtLink to="/challenges" class="btn btn-primary">
