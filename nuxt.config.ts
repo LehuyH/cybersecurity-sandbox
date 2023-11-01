@@ -5,8 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss','nuxt-icon'],
   app: {
     head: {
-      title: "The Sandbox @ Las Positas CyberSecurity Clubb",
-      description: "Interactive challenges to get hands-on experience with cybersecurity concepts.",
+      title: "The Sandbox @ Las Positas CyberSecurity Club",
       htmlAttrs: {
         lang: "en",
       },
@@ -19,6 +18,10 @@ export default defineNuxtConfig({
         { name: "twitter:image", content: "https://cyber.lehuy.dev/cover.png" },
         { itemprop: "image", content: "https://cyber.lehuy.dev/cover.png" },
         { name: "twitter:card", content: "summary_large_image" },
+        { name: "description", content: "🥇 Interactive Challenges for The CyberSecurity Club @ Las Positas College"},
+        { name: "twitter:description", content: "🥇 Interactive Challenges for The CyberSecurity Club @ Las Positas College"},
+        { name: "og:description", content: "🥇 Interactive Challenges for The CyberSecurity Club @ Las Positas College"},
+        {name: "og:title", content: "The Sandbox"},
       ],
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
